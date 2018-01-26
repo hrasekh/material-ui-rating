@@ -1,6 +1,6 @@
 {
-  "name": "material-ui-rating",
-  "version": "1.4.1",
+  "name": "material-ui-star-rating",
+  "version": "1.0.0",
   "description": "Material style rating",
   "main": "lib/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "publish-docs": "npm run styleguide:build && npm run gh-pages",
-    "gh-pages": "./node_modules/.bin/gh-pages -d styleguide"
+    "gh-pages": "gh-pages -d styleguide"
   },
   "repository": {
     "type": "git",
